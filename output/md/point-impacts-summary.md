@@ -1,6 +1,9 @@
-### Settlements most likely impacted by flood detection this month
 
-Department  |  District |  Village  |  Flood Area 
+        ### Population and cropland most likely impacted by flood detection this week
+
+        > Population and cropland located in areas detected as flood this week
+
+        Department  |  District |  Village  |  Flood Area 
 ---|---|---|---
 Cuvette  |  Mossaka  |  Bokoso Two  |  67466  
 Cuvette  |  Mossaka  |  Bokoso II  |  67466  
@@ -17,5 +20,3 @@ Plateaux  |  Gamboma  |  Menboua  |  69325
 Plateaux  |  Gamboma  |  Maboua  |  69325  
 Plateaux  |  Gamboma  |  Nzalokwe  |  68894  
 Plateaux  |  Gamboma  |  Mite Mite  |  68433  
-
-Settlements by district located in areas detected as flood 

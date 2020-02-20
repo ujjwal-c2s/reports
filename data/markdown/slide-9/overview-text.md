@@ -1,5 +1,4 @@
 #### Department: Likouala
-- Flooded area from December 15 - January 31: **992** km<sup>2</sup>
 - Flooded area: **992 km<sup>2</sup>** 
 - People potentially impacted: **66,757**
 - Cropland area potentially impacted : **1.23 km<sup>2</sup>**

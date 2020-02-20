@@ -104,7 +104,6 @@ def generate_point_impacts(point_impacts_csv, md_file_name):
         os.remove(md_file_name)
 
     df = pd.read_csv(point_impacts_csv)
-
     with open(md_file_name, 'w') as mdf:
         mdf.write(
         """
@@ -124,9 +123,9 @@ def generate_point_impacts(point_impacts_csv, md_file_name):
                 if count == 5:
                     break
 
-                mdf.write("%s  |  %s  |  %s  |  %f  \n" %
+                mdf.write("%s  |  %s  |  %s  |  %d  \n" %
                           (row[1]['ADM1_NAME'], row[1]['ADM2_NAME'], row[1]['NAME'], row[1]['floodArea']))
-                print("%s  |  %s  |  %s  |  %f  \n" %
+                print("%s  |  %s  |  %s  |  %d  \n" %
                           (row[1]['ADM1_NAME'], row[1]['ADM2_NAME'], row[1]['NAME'], row[1]['floodArea']))
                 count += 1
 
@@ -163,13 +162,12 @@ def generate_raster_impacts(raster_impacts_csv, md_file_name):
         for row in df.iterrows():
             if count == 20:
                 break
-            mdf.write("%s  |  %s  |  %f  |  %f  |  %f  \n" %
+            mdf.write("%s  |  %s  |  %.4f  |  %d  |  %d  \n" %
                       (row[1]['Admin1Name'], row[1]['Admin2Name'], row[1]['agSum'], row[1]['popSum'], row[1]['roadSum']))
             print("%s  |  %s  |  %f  |  %f  |  %f  \n" % (row[1]['Admin1Name'], row[1]['Admin2Name'], row[1]['agSum'], row[1]['popSum'], row[1]['roadSum']))
             count += 1
 
     print('Saved %s' % md_file_name)
-
 
 
 def generate_report_markdown(ag_impacts_csv, pop_impacts_csv, md_file_name):
@@ -220,12 +218,10 @@ pop_impacts_csv = os.path.join(base_dir,
                                r'./data/csv/2020-01-31_impacts_Congo_pop_impacts_s1_2020-01-31.csv')
 # generate_report_markdown(ag_impacts_csv, pop_impacts_csv, os.path.join(base_dir, r'./output/md/slide3-pop-ag-impacts.md'))
 
-# raster_impacts_csv = r"./data/csv/2020-01-31_impacts_RasterImpactsSummary.csv"
-# generate_raster_impacts(raster_impacts_csv,
-#                         os.path.join(base_dir, r'./output/md/raster-impacts.md')
-#                         )
+raster_impacts_csv = os.path.join(base_dir, r"../data/csv/2020-01-31_impacts_RasterImpactsSummary.csv")
+generate_raster_impacts(raster_impacts_csv,
+                        os.path.join(base_dir, r'../output/md/raster-impacts-summary.md'))
 
-point_impacts_csv = r"./data/csv/2020-01-31_impacts_PointImpactsSummary.csv"
+point_impacts_csv = os.path.join(base_dir, r"../data/csv/2020-01-31_impacts_PointImpactsSummary.csv")
 generate_point_impacts(point_impacts_csv,
-                        os.path.join(base_dir, r'./output/md/point-impacts.md')
-                        )
+                       os.path.join(base_dir, r'../output/md/point-impacts-summary.md'))
