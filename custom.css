@@ -103,3 +103,11 @@
 .legend .legend-right p {
     text-align: left;
 }
+
+.point-impacts-table table {
+    font-size: small;
+}
+
+.raster-impacts-table table {
+    font-size: small;
+}

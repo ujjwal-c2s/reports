@@ -1,6 +1,8 @@
 
         ### Population and cropland most likely impacted by flood detection this week
 
+        > Population and cropland located in areas detected as flood this week
+
         Department  |  District |  Agriculture impacted [km<sup>2</sup>] |  Potential population impacted  |  Roads impacted (m) 
 ---|---|---|---|---
 Plateaux  |  Ngo  |  0.005357  |  8.000000  |  70.000000  
@@ -18,5 +20,3 @@ Likouala  |  Liranga  |  0.150183  |  15652.000000  |  190.000000
 Likouala  |  Dongou  |  0.210826  |  8194.000000  |  1030.000000  
 Cuvette  |  Loukolela  |  0.505961  |  5102.000000  |  2300.000000  
 Likouala  |  Betou  |  0.691253  |  26382.000000  |  7510.000000  
-
-Population and cropland located in areas detected as flood this week
