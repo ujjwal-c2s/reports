@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Monthly Flood Status Report - January 2020</title>
+    <title>Monthly Flood Status Report</title>
 
     <link rel="stylesheet" href="lib/reveal/css/reset.css">
     <link rel="stylesheet" href="lib/reveal/css/reveal.css">
@@ -30,89 +30,497 @@
 <div class="reveal">
     <div class="slides">
 
+        <!-- slide 1: Title slide -->
         <section class="title-slide"
                  data-background-image="./assets/title-page-background.png"
-				 data-background-opacity="0.5"
-                 data-markdown>
-					<textarea data-template>
-						# Monthly Flood Status Report - January 2020:
-						### Prepared for for the Congo Country Office of the World Food Programme
-						> Updated: February 20th, 2020
-					</textarea>
+                 data-background-opacity="0.5"
+                 data-markdown="./data/markdown/slide-1/title-slide-content.md"
+                 data-charset="iso-8859-15">
         </section>
 
-		<section class="highlights-slide"
+        <!-- slide 2: Highlights slide -->
+        <section class="highlights-slide"
                  data-background-image="./assets/content-page-background.png"
                  data-background-size="contain"
                  data-background-position="center"
-                 data-markdown="./output/md/slide2-highlights.md"
-				data-charset="iso-8859-15"
-					>
+                 data-markdown="./data/markdown/slide-2/slide2-highlights.md"
+                 data-charset="iso-8859-15">
         </section>
 
+        <!-- slide 3: Flood Status Overview -->
         <section class="content-slide"
                  data-background-image="./assets/content-page-background.png"
                  data-background-size="contain"
-                 data-background-position="center"
-                 data-markdown>
-					<textarea data-template>
-						### Niger River Monitoring
-					</textarea>
-        </section>
-
-        <!-- slide 3-->
-        <section class="content-slide"
-                 data-background-image="./assets/content-page-background.png"
-                 data-background-size="contain"
-                 data-background-position="center"
-		data-markdown="./output/md/slide3-pop-ag-impacts.md"
-				data-charset="iso-8859-15"
-		>
-        </section>
-
-
-        <!-- slide 4 -->
-        <section class="content-slide"
-                 data-background-image="./assets/content-page-background.png"
-                 data-background-size="contain"
-                 data-background-position="center"
-                 data-markdown>
-					<textarea data-template>
-					### Department Impacts
-					</textarea>
-        </section>
-
-        <!-- slide 5 -->
-        <section class="content-slide"
-                 data-background-image="./assets/content-page-background.png"
-                data-background-size="contain"
                  data-background-position="center">
-			<div data-markdown>
-				<textarea data-template>
-						### Department: Likouala
-				</textarea>
-			</div>
-			<div style="display: flex; flex-direction: row">
-				<div style="width: 50%;">
-					<div data-markdown>
-						<textarea data-template>
-							- Flooded Area: **900km**<sup>2</sup>
-							- Total estimated population affected: **55,800**
-						</textarea>
-					</div>
-					<div data-markdown>
-						<div class="legend" data-template>
-							- Source: Sentinel-1
-							- GRD, Sentinel-2
-							- MSS, Landsat 8 OLI
-						</div>
-					</div>
-				</div>
-				<div style="width: 50%;">
-					<img src="./assets/likouala-flood-area.png" style="height: 360px">
-				</div>
-			</div>
 
+            <div class="two-col-slide">
+
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-3/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-3/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-3/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Congo_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- slide 4: Flood Area Overview -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-4/flood-area-overview.md"
+                         data-charset="iso-8859-15">
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_congo_flood_cloro.png" alt="Area Overview map">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- slide 5: Segment slide -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/markdown/slide-5/title.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 6-->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/markdown/slide-6/raster-impacts-summary.md"
+                 data-charset="iso-8859-15"
+        >
+        </section>
+
+        <!-- slide 7: Crop Area Overview -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-4/flood-area-overview.md"
+                         data-charset="iso-8859-15">
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_congo_flood_cloro.png" alt="Area Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 8-->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/markdown/slide-8/point-impacts-summary.md"
+                 data-charset="iso-8859-15"
+        >
+        </section>
+
+        <!-- slide 9: Department Likouala -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-9/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-9/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-9/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Likouala_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 10: Department Betou -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-10/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-10/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-10/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Betou_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 11: District: Impfondo -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-11/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-11/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-11/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Impfondo_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 12: District: Liranga -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-12/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-12/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-12/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Liranga_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 13: Department Couvette -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-13/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-13/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-13/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Cuvette_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 14: Department Loukolela -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-14/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-14/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-14/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Loukolela_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 15: Department Mossaka -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-15/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-15/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-15/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Mossaka_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 16: Department Plateaux -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-16/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-16/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-16/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Plateaux_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 17: Department Makotimpoko -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+
+                    <div class="left-col-text"
+                         data-markdown="./data/markdown/slide-17/overview-text.md"
+                         data-charset="iso-8859-15">
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-left">
+                            <div data-markdown="./data/markdown/slide-17/legend-left.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                        <div class="legend-right">
+                            <div data-markdown="./data/markdown/slide-17/legend-right.md"
+                                 data-charset="iso-8859-15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/maps/2020-01-31_maps_Makotimpoko_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 18-->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/markdown/slide-18/past-precip-title.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 19: Past precipitation -->
+        <section class="content-slide past-month-precip"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/markdown/slide-19/past-month-precip.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 20: GsMAP map -->
+        <section class="content-slide rainfall-summary"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+        >
+
+            <div style="display: flex; flex-direction: column">
+                <div style="height: 20%">
+                    <div data-markdown="./data/markdown/slide-20/title.md"
+                         data-charset="iso-8859-15">
+                    </div>
+                </div>
+                <div style="height: 80%">
+                    <div class="two-col-slide">
+                        <div class="left-col">
+                            <div class="rainfall-summary-image">
+                                <img src="data/maps/2020-01-31_maps_congo_precip.png" alt="Status Overview map">
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <div class="rainfall-summary-image">
+                                <img src="data/maps/2020-01-31_maps_congo_clim.png" alt="Status Overview map">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-markdown="./data/markdown/slide-20/caption.md"
+                         data-charset="iso-8859-15">
+                    </div>
+                </div>
+            </div>
         </section>
 
     </div>

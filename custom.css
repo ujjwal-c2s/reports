@@ -11,6 +11,14 @@
     text-transform: none;
 }
 
+.reveal img {
+    border: none !important;
+}
+
+.title-slide img {
+    height: 140px;
+}
+
 .content-slide .centered {
     width: 100%;
     text-align: center;
@@ -27,4 +35,71 @@
 
 .content-slide .impact-table th {
     font-weight: 600;
+}
+
+.two-col-slide {
+    display: flex;
+    flex-direction: row
+}
+
+.two-col-slide .left-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left-col-text {
+    height: 70%;
+}
+
+.two-col-slide .right-col {
+   width: 50%;
+}
+
+.two-col-slide .right-col .right-col-image img {
+   height: 450px;
+}
+
+.two-col-slide .left-col .right-col-image img {
+   height: 450px;
+}
+
+.rainfall-summary-image img {
+    height: 310px;
+}
+
+.past-month-precip img {
+    height: 325px;
+}
+
+.legend {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.legend .legend-left {
+    width: 100%;
+}
+
+.legend .legend-left ul {
+   list-style: none !important;
+    border: 1px solid #000;
+    padding: 24px;
+}
+
+.legend .legend-right {
+    width: 60%;
+    display: none;
+}
+
+.legend .legend-right img {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #7b848d !important;
+    vertical-align: middle;
+}
+
+.legend .legend-right p {
+    text-align: left;
 }
