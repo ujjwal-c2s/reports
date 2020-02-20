@@ -4,3 +4,7 @@
 - Cropland area potentially impacted : **0.73 km<sup>2</sup>**
 - Meters of roads potentially impacted: **13,290**
 - Villages potentially affected: **133**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI

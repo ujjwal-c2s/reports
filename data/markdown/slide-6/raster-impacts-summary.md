@@ -1,5 +1,5 @@
 
-        ### Population and cropland most likely impacted by flood detection this week
+        ### Population and cropland and roads most likely impacted by flood detection this month
 
         Department  |  District |  Agriculture impacted [km<sup>2</sup>] |  Potential population impacted  |  Roads impacted (m) 
 ---|---|---|---|---
@@ -19,4 +19,4 @@ Likouala  |  Dongou  |  0.2108  |  8194  |  1030
 Cuvette  |  Loukolela  |  0.5060  |  5102  |  2300  
 Likouala  |  Betou  |  0.6913  |  26382  |  7510  
 
-Population and cropland located in areas detected as flood this week
+Exposure categories by district located in areas detected as flood

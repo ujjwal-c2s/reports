@@ -3,3 +3,7 @@
 - People potentially impacted: **5,102**
 - Cropland area potentially impacted : **0.51 km<sup>2</sup>**
 - Meters of roads potentially impacted: **2,300**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
