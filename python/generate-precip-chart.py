@@ -98,9 +98,9 @@ def make_plot(precip_csv_file, ofile):
 
 
 base_dir = os.path.dirname(os.path.dirname(__file__))
-project_dir = r'data/congo/2020-01-31'
+project_dir = r'data/congo/2020-02-29'
 base_dir = os.path.join(base_dir, project_dir)
 
-precip_csv_file = os.path.join(base_dir, r"csv/2020-01-31_Precip_Congo_Precip_gsmapGC_20200101-20200131.csv")
-ofile = os.path.join(base_dir, r'output/precip_plot.svg')
+precip_csv_file = os.path.join(base_dir, r"csv/2020-02-29_Precip_Congo_Precip_gsmapGC_20200201-20200229.csv")
+ofile = os.path.join(base_dir, r'output/precip_plot_2020-02-29.svg')
 make_plot(precip_csv_file, ofile)
