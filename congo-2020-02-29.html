@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Monthly Flood Status Report</title>
+
+    <link rel="stylesheet" href="lib/reveal/css/reset.css">
+    <link rel="stylesheet" href="lib/reveal/css/reveal.css">
+
+    <!-- themes: black, white, league, beige, sky, night, serif, simple, solarized -->
+    <link rel="stylesheet" href="lib/reveal/css/theme/white.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/reveal/lib/css/monokai.css">
+
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'lib/reveal/css/print/pdf.css' : 'lib/reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+
+<div class="reveal">
+    <div class="slides">
+
+        <!-- slide 1: Title slide -->
+        <section class="title-slide"
+                 data-background-image="./assets/title-page-background.png"
+                 data-background-opacity="0.5"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-1/title-slide-content.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 2: Highlights slide -->
+        <section class="highlights-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-2/slide2-highlights.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 3: Flood Status Overview -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Flood Status Overview
+                            - Across Likouala, Cuvette, & Plateaux **3,694 km<sup>2</sup>** remains flooded.
+                            <br><br><br><br><br><br><br>
+                            > Source: Sentinel-1
+                            > GRD, Sentinel-2
+                            > MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Congo_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 4: Flood Area Overview -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Flood Area Overview
+- **Loukolela (1,305), Mossaka (549)**, and **Makotimpoko (510)**
+ remain the most flood affected districts in terms of total flooded area (km<sup>2</sup>)
+
+                            <br><br><br>
+                            > Source: Sentinel-1
+                            > GRD, Sentinel-2
+                            > MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_congo_flood_cloro.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- slide 5: Segment slide -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-5/title.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 6-->
+        <section class="content-slide raster-impacts-table"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-6/raster-impacts-summary.md"
+                 data-charset="iso-8859-15"
+        >
+        </section>
+
+        <!-- slide 7: Crop Area Overview -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Flooded Cropland Area Overview
+- Affected Cropland (km<sup>2</sup>) by District in Likouala (0.48), Cuvette (0.83), and Plateaux (0.32)
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-01-31_maps_congo_crop_cloro.png"
+                             alt="Area Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 8-->
+        <section class="content-slide point-impacts-table"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-8/point-impacts-summary.md"
+                 data-charset="iso-8859-15"
+        >
+        </section>
+
+        <!-- slide 9: Department Likouala -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Likouala
+- Flooded area: **992 km<sup>2</sup>**
+- People potentially impacted: **66,757**
+- Cropland area potentially impacted : **1.23 km<sup>2</sup>**
+- Meters of roads potentially impacted: **24,580 m**
+- Villages potentially affected: **130**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Likouala_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 10: Department Betou -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### District: Betou
+- Flooded area: **110 km<sup>2</sup>**
+- People potentially impacted: **26,382**
+- Cropland area potentially impacted : **0.69 km<sup>2</sup>**
+- Meters of roads potentially impacted: **7,510 m**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Betou_flood.png" alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 11: District: Impfondo -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### District: Impofondo
+- Flooded area: **120** km<sup>2</sup>
+- People potentially impacted: **11,709**
+- Cropland area potentially impacted : **0.02 km<sup>2</sup>**
+- Meters of roads potentially impacted: **5,270 m**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Impfondo_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- slide 12: District: Liranga -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### District: Liranga
+- Flooded area: **292** km<sup>2</sup>
+- People potentially impacted: **15,652**
+- Cropland area potentially impacted : **0.15 km<sup>2</sup>**
+- Meters of roads potentially impacted: **190 m**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Liranga_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 13: Department Couvette -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Cuvette
+- Flooded area from December 15 - January 31: **1,681** km<sup>2</sup>
+- People potentially impacted: **10,276**
+- Cropland area potentially impacted : **0.73 km<sup>2</sup>**
+- Meters of roads potentially impacted: **13,290**
+- Villages potentially affected: **133**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Cuvette_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 14: Department Loukolela -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Loukolela
+- Flooded area: **1,035** km<sup>2</sup>
+- People potentially impacted: **5,102**
+- Cropland area potentially impacted : **0.51 km<sup>2</sup>**
+- Meters of roads potentially impacted: **2,300**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Loukolela_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 15: Department Mossaka -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Mossaka
+- Flooded area: **549** km<sup>2</sup>
+- People potentially impacted: **4,097**
+- Cropland area potentially impacted : **0.14 km<sup>2</sup>**
+- Meters of roads potentially impacted: **1,720**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Mossaka_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 16: Department Plateaux -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Plateaux
+- Flooded area: **1,020** km<sup>2</sup>
+- People potentially impacted: **7,008**
+- Cropland area potentially impacted : **0.26 km<sup>2</sup>**
+- Meters of roads potentially impacted: **3,670**
+- Villages potentially affected: **77**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Plateaux_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 17: Department Makotimpoko -->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center">
+
+            <div class="two-col-slide">
+                <div class="left-col">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ### Department: Makotimpoko
+- Flooded area: **510** km<sup>2</sup>
+- People potentially impacted: **6,442**
+- Cropland area potentially impacted : **0.10 km<sup>2</sup>**
+- Meters of roads potentially impacted: **1,940**
+
+> Source: Sentinel-1
+> GRD, Sentinel-2
+> MSS, Landsat 8 OLI
+                        </textarea>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="right-col-image">
+                        <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Makotimpoko_flood.png"
+                             alt="Status Overview map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide 18-->
+        <section class="content-slide"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-18/past-precip-title.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 19: Past precipitation -->
+        <section class="content-slide past-month-precip"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+                 data-markdown="./data/congo/2020-02-29/markdown/slide-19/past-month-precip.md"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <!-- slide 20: GsMAP map -->
+        <section class="content-slide rainfall-summary"
+                 data-background-image="./assets/content-page-background.png"
+                 data-background-size="contain"
+                 data-background-position="center"
+        >
+
+            <div style="display: flex; flex-direction: column">
+                <div style="height: 20%">
+                    <div data-markdown>
+                        <textarea data-template>
+                            ###  Rainfall Summary this month
+                        </textarea>
+                    </div>
+                </div>
+                <div style="height: 80%">
+                    <div class="two-col-slide">
+                        <div class="left-col">
+                            <div class="rainfall-summary-image">
+                                <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Congo_precip.png"
+                                     alt="Status Overview map">
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <div class="rainfall-summary-image">
+                                <img src="data/congo/2020-02-29/maps/2020-02-29_maps_Congo_climate.png"
+                                     alt="Status Overview map">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-markdown>
+                        <textarea data-template>
+                            Areas most likely affected by rainfall last month (left) versus the climatological average
+                            for January (month). Pool Department had the highest accumulated rainfall (>200 mm).
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<script src="lib/reveal/js/reveal.js"></script>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        hash: true,
+        width: 960,
+        height: 540,
+        fragments: false,
+        embedded: true,
+        dependencies: [
+            {src: 'lib/reveal/plugin/markdown/marked.js'},
+            {src: 'lib/reveal/plugin/markdown/markdown.js'},
+            {src: 'lib/reveal/plugin/highlight/highlight.js'},
+            {src: 'lib/reveal/plugin/notes/notes.js', async: true}
+        ]
+    });
+
+    Reveal.addEventListener('slidechanged', function (event) {
+        var el = event.srcElement;
+        // console.log(el);
+
+        // var opts = {
+        //     foreignObjectRendering: true,
+        //     allowTaint: true,
+        //     letterRendering: 1,
+        //     useCORS: true
+        // };
+
+        // html2canvas(el, opts).then(canvas => {
+        //     //document.body.appendChild(canvas);
+        //     var myImage = canvas.toDataURL("image/png");
+        //     //window.open(myImage);
+        //
+        //     var img = new Image();
+        //     img.src = myImage;
+        //     img.width = 100;
+        //
+        //     document.getElementById('screenshots').appendChild(img);
+        // });
+
+    });
+</script>
+
+</body>
+</html>

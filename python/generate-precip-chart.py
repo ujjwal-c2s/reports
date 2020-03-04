@@ -82,18 +82,18 @@ def make_plot(precip_csv_file, ofile):
         )
     )
 
-    annotations = []
-    annotations.append(dict(xref='paper', yref='paper', x=0.0, y=1.05,
-                                  xanchor='left', yanchor='bottom',
-                                  text=title,
-                                  font=dict(family='Arial',
-                                            size=30,
-                                            color='rgb(37,37,37)'),
-                                  showarrow=False))
-
+    annotations = dict(xref='paper',
+                            yref='paper',
+                            x=0.0,
+                            y=1.05,
+                            xanchor='left',
+                            yanchor='bottom',
+                            text=title,
+                            font=dict(family='Arial', size=30, color='rgb(37,37,37)'),
+                            showarrow=False)
     fig.update_layout(annotations=annotations)
-
     fig.write_image(ofile)
+
     print('Saved precip chart: %s' % ofile)
 
 
